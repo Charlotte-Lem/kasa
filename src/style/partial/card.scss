@@ -1,0 +1,16 @@
+.CardContainer {
+  margin: 50px 30px; /* Ajoutez un espacement entre Accueil et CardContainer */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Trois colonnes de largeur égale */
+  gap: 85px; /* Espacement entre les cartes */
+}
+
+.Card {
+  border-radius: 25px;
+  background-color: $color-primary;
+  width: 100%; /* Chaque carte occupe toute la largeur de sa colonne */
+  aspect-ratio: 1; /* Les cartes sont des carrés (ratio hauteur/largeur de 1:1) */
+}
+
+.cardTitle {
+}

@@ -1,0 +1,30 @@
+.banner {
+  margin: 45px 35px; /* Ajouter la marge */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navigation ul li {
+    margin-left: 20px;
+  }
+
+  .navigation ul li:first-child {
+    margin-left: 0;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: $color-primary;
+
+    &:hover {
+      border-bottom: 1px solid $color-primary;
+    }
+  }
+}
